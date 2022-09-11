@@ -18,7 +18,7 @@ monitors:
   - id: cloud-segator-es # unique identifier
     name: cloud.segator.es
     description: '' # default=empty
-    url: 'https://cloud.segator.es/' # URL to fetch
+    url: 'https://cloud.segator.es' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
